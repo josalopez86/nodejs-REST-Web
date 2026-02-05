@@ -21,4 +21,3 @@ To migrate schema to prod
 `npx prisma migrate deploy`
 
 #It was deployed to railway.com/
-https://nodejs-web-rest-server-production.up.railway.app
