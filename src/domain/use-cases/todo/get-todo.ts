@@ -1,4 +1,7 @@
-import { TodoEntity, TodoRepository } from "../../domain";
+//import { TodoEntity, TodoRepository } from "";
+
+import { TodoEntity } from "../../entities/todo.entity";
+import { TodoRepository } from "../../repositories/todo.repository";
 
 export interface GetTodoUseCase{
     execute(id: number): Promise<TodoEntity>;
